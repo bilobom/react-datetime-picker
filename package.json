@@ -15,7 +15,6 @@
     "prepack": "npm install",
     "lint": "eslint sample/ src/ test/ --ext .jsx,.js",
     "test": "npm run lint && npm run jest",
-    "postinstall": "npm run build"
   },
   "jest": {
     "setupFiles": [
