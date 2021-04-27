@@ -15,7 +15,7 @@
     "lint": "eslint sample/ src/ test/ --ext .jsx,.js",
     "prepack": "yarn clean && yarn build",
     "test": "yarn lint && yarn jest",
-    "postinstall": "yarn install && yarn build"
+    "postinstall": "yarn install --ignore-scripts && yarn build"
   },
   "jest": {
     "setupFiles": [
