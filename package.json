@@ -14,8 +14,7 @@
     "jest": "jest",
     "jest-coverage": "jest --coverage",
     "lint": "eslint sample/ src/ test/ --ext .jsx,.js",
-    "test": "npm run lint && npm run jest",
-    "postinstall": "npm install --ignore-scripts && npm run build"
+    "test": "npm run lint && npm run jest"
   },
   "jest": {
     "setupFiles": [
